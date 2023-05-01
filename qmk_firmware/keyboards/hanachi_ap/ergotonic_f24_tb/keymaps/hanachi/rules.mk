@@ -1,7 +1,0 @@
-VIA_ENABLE = yes
-AUTO_SHIFT_ENABLE = yes
-ENCODER_ENABLE = no
-EXTRAKEY_ENABLE = no       # Audio control and System control
-
-POINTING_DEVICE_ENABLE = yes
-POINTING_DEVICE_DRIVER = adns5050

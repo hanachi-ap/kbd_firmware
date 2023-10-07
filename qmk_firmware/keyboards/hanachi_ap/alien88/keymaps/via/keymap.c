@@ -126,7 +126,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
            S(C(KC_F1)),   S(KC_F1), S(KC_F2), S(KC_F3), S(KC_F4), S(KC_F5), S(KC_F6), S(KC_F7), S(KC_F8),  S(KC_F9),  S(KC_F10),S(KC_F11),  S(KC_F12),  MO(_SYS),            
   S(C(KC_F2)),   KC_NO,   KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,     KC_NO,     KC_NO ,   KC_NO,  KC_NO,  KC_NO, KC_NO,  KC_NO, 
   S(C(KC_F3)),   KC_NO,   KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,     KC_NO,     KC_NO,    KC_NO,  KC_NO,  KC_NO,         KC_NO,   
-  S(C(KC_F4)),   KC_CLCK, KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_LEFT,  KC_DOWN,  KC_UP,     KC_RIGHT,  KC_NO,    KC_NO,  KC_NO,                 KC_NO,   
+  S(C(KC_F4)),   KC_CAPS, KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_LEFT,  KC_DOWN,  KC_UP,     KC_RIGHT,  KC_NO,    KC_NO,  KC_NO,                 KC_NO,   
   S(C(KC_F5)),   KC_NO,   KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_HOME,  KC_END,    KC_NO,     KC_NO,    KC_NO,  KC_NO,                 KC_NO,
   S(C(KC_F6)),   KC_NO,   KC_NO, KC_NO,             KC_BSPC,              KC_DEL,                     KC_NO,  KC_NO,  KC_NO,  KC_NO,     KC_NO,          KC_NO ,
                                                            KC_ENT,     _______ ,
@@ -251,12 +251,13 @@ led_config_t g_led_config = { {
   4,4,4,4,4,4,4,4,4,4,4,4,4,4
 } };
 
-void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max)
+bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max)
 {
     int is_layer = get_highest_layer(layer_state | default_layer_state);
     if (is_layer >= 1 && is_layer <=8)
     {
         rgb_matrix_set_color(is_layer, 0,100, 0);
     }
+    return true;
 }
 #endif

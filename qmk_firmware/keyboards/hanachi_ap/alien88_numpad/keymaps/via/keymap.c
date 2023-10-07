@@ -31,7 +31,7 @@ enum layer_names {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_BASE] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L1] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L2] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L3] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -63,7 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L4] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -71,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L5] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L6] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -87,7 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L7] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_KP_0,   KC_KP_DOT, KC_COMMA,   KC_KP_ENTER
     ),
 [_L8] = LAYOUT_4x6(
-             KC_NLCK,    KC_F2,      MO(_SYS), 
+             KC_NUM,    KC_F2,      MO(_SYS), 
   KC_ESC,    KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
@@ -104,7 +104,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 [_FN] = LAYOUT_4x6(
              KC_ESC,    KC_F1,      MO(_SYS), 
-  KC_NLCK,   KC_DEL,    KC_BSPC,    KC_KP_SLASH,
+  KC_NUM,   KC_DEL,    KC_BSPC,    KC_KP_SLASH,
   KC_KP_7,   KC_KP_8,   KC_KP_9,    KC_KP_ASTERISK,
   KC_KP_4,   KC_KP_5,   KC_KP_6,    KC_KP_MINUS,
   KC_KP_1,   KC_KP_2,   KC_KP_3,    KC_KP_PLUS,
@@ -189,7 +189,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 }
 
 bool led_update_user(led_t led_state) {
-    rgblight_set_layer_state(9, IS_HOST_LED_ON(USB_LED_NUM_LOCK));
+    rgblight_set_layer_state(9, led_state.num_lock);
     return true;
 }
 #endif

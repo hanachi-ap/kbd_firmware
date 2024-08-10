@@ -103,6 +103,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
     default:
         // LANGキーが押されている間に他のキーが押されたら
         if (lang_key_pressed) {
+            if (TIMER_DIFF_16(record->event.time, lang_pressed_time) <= 100) return true;
             tap_code(KC_F14); // IME ON
             lang_mode = true;
         }

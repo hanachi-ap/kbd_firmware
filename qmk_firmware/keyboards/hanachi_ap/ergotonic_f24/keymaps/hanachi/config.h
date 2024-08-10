@@ -1,3 +1,4 @@
-#define ADNS5050_SCLK_PIN         F4
-#define ADNS5050_SDIO_PIN         F5
-#define ADNS5050_CS_PIN           F6
+#define AUTO_SHIFT_TIMEOUT 210
+#define NO_AUTO_SHIFT_SPECIAL
+#define NO_AUTO_SHIFT_NUMERIC
+#define TAP_MOD_DELAY  300

@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_4,   KC_9,   KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM,  KC_DOT,   KC_SLSH,  KC_GRV,   KC_RSFT, 
     KC_5,   KC_0,   KC_LCTL,   KC_LGUI, KC_LALT,     LCTL_T(KC_SPC),  LSFT_T(KC_SPC),   MO(_SYS),  KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT ,
                                                      KC_LCTL,  MO(_FN),    // Thumb Extension Keys
-                                               KC_NO, KC_WH_L,KC_BTN3,KC_WH_R,KC_NO  //Wheel knobs is  not standard equipment
+                                               KC_NO, MS_WHLL,MS_BTN3,MS_WHLR,KC_NO  //Wheel knobs is  not standard equipment
     ),
 [_L1] = LAYOUT_90_ansi( 
     _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,            
@@ -133,11 +133,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 [_SYS] = LAYOUT_90_ansi( 
     KC_NO,            TO(_BASE), TO(1),  TO(2),   TO(3),   TO(4),   TO(5),   TO(6),   TO(7),   TO(8)  , KC_NO, KC_NO, KC_NO, KC_NO, KC_SLEP,            
-    RGB_TOG, KC_NO  , KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-    RGB_MOD, RGB_RMOD,KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,   
-    RGB_HUI, RGB_HUD, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,       
-    RGB_SAI, RGB_SAD, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
-    RGB_VAI, RGB_VAD, KC_NO, KC_NO, QK_BOOT, KC_NO, KC_NO, KC_NO, KC_MRWD, KC_VOLD, KC_VOLU, KC_MNXT ,
+    RM_TOGG, KC_NO  , KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+    RM_NEXT, RM_PREV, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+    RM_HUEU, RM_HUED, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+    RM_SATU, RM_SATD, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+    RM_VALU, RM_VALD, KC_NO, KC_NO, QK_BOOT, KC_NO, KC_NO, KC_NO, KC_MRWD, KC_VOLD, KC_VOLU, KC_MNXT ,
                                                            KC_NO, KC_NO,
                                                KC_NO, KC_NO,KC_NO,KC_NO,KC_NO
     ),

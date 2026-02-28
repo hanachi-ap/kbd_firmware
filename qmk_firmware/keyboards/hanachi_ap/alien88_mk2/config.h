@@ -94,3 +94,6 @@
 #define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_UP_DOWN
 #endif
 
+#ifdef MIDI_ENABLE
+#   define MIDI_ADVANCED
+#endif  //  MIDI_ENABLE
